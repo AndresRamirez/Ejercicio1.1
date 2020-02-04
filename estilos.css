@@ -1,0 +1,98 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: arial,verdana;
+}
+.contenedor
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: rgba(51,97,255,1)
+}
+.titulo
+{
+	background-color: rgba(255,255,255,1);
+	width: 100%;
+	padding: 15px;
+	text-align: center;
+}
+.contenedorRecuadros
+{
+	overflow: hidden;
+	margin: 100px auto;
+	
+}
+.empezar
+{
+	width: auto;
+	padding: 5px;
+	overflow: hidden;
+}
+.empezar p
+{
+	padding: 10px;
+	width: 33%;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+.empezar p#configuracion
+{
+	text-align: center;
+}
+.configuracion,
+.capa
+{
+	width: 100%;
+	max-width: 350px;
+	overflow: hidden;
+	float: left;
+	background-color: rgba(255,255,255,1);
+	padding: 10px;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	right: 0;
+	height: 100%;
+	color: #3E464C;
+}
+.configuracion
+{
+	right: -100%;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.capa
+{
+	background-color: rgba(0,0,0,0.1);
+	z-index: 100;
+	max-width: none;
+	display: none;
+}
+.configuracion p {margin-top: 10px;}
+.configuracion input
+{
+	width: 100%;
+	border: none;
+	background-color: rgba(0,0,0,0.1);
+	padding: 7px;
+	color: #3E464C;
+	font-size: 16px;
+}
+.configuracion input[type=button]
+{
+	margin-top: 20px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+}
+.contenedor .info
+{
+	width: 100%;
+	overflow: hidden;
+}
